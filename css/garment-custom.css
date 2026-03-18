@@ -1,29 +1,29 @@
 /* =============================================
-   NEPAL GARMENT CO. — Custom Styles
-   Color Palette: Navy #1a2744, Gold #c8a96e, 
-   Warm White #faf8f5, Dark #0d1b2a
+   THECHO GARMENTS — Custom Styles
+   Color Palette: Charcoal #2b2b2b, Burnt Orange #d4722c,
+   Warm White #faf9f7, Dark #1a1a1a
    ============================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 /* ── CSS Variables ───────────────────────────── */
 :root {
-    --navy: #1a2744;
-    --navy-light: #243352;
-    --navy-dark: #0d1b2a;
-    --gold: #c8a96e;
-    --gold-light: #d4bc8a;
-    --gold-dark: #b08d4f;
-    --warm-white: #faf8f5;
-    --off-white: #f5f0eb;
-    --text-dark: #1a1a2e;
-    --text-light: #6b7280;
-    --text-muted: #9ca3af;
-    --border-color: #e5e1dc;
-    --shadow-sm: 0 2px 8px rgba(26, 39, 68, 0.06);
-    --shadow-md: 0 4px 20px rgba(26, 39, 68, 0.1);
-    --shadow-lg: 0 10px 40px rgba(26, 39, 68, 0.15);
-    --shadow-gold: 0 4px 20px rgba(200, 169, 110, 0.25);
+    --navy: #2b2b2b;
+    --navy-light: #3d3d3d;
+    --navy-dark: #1a1a1a;
+    --gold: #d4722c;
+    --gold-light: #e8965a;
+    --gold-dark: #b85d1f;
+    --warm-white: #faf9f7;
+    --off-white: #f3f1ee;
+    --text-dark: #1f1f1f;
+    --text-light: #6b6b6b;
+    --text-muted: #9a9a9a;
+    --border-color: #e0ddd8;
+    --shadow-sm: 0 2px 8px rgba(43, 43, 43, 0.06);
+    --shadow-md: 0 4px 20px rgba(43, 43, 43, 0.1);
+    --shadow-lg: 0 10px 40px rgba(43, 43, 43, 0.15);
+    --shadow-gold: 0 4px 20px rgba(212, 114, 44, 0.3);
     --radius-sm: 8px;
     --radius-md: 12px;
     --radius-lg: 20px;
@@ -360,7 +360,7 @@ section {
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(13,27,42,0.9) 0%, rgba(26,39,68,0.7) 50%, rgba(13,27,42,0.85) 100%);
+    background: linear-gradient(135deg, rgba(26,26,26,0.92) 0%, rgba(43,43,43,0.7) 50%, rgba(26,26,26,0.88) 100%);
     z-index: 2;
 }
 
@@ -612,7 +612,7 @@ section {
 .category-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(0deg, rgba(13,27,42,0.85) 0%, rgba(13,27,42,0.1) 60%);
+    background: linear-gradient(0deg, rgba(26,26,26,0.88) 0%, rgba(26,26,26,0.1) 60%);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
